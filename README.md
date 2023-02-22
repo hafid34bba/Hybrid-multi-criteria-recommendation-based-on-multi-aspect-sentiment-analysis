@@ -4,7 +4,7 @@ This repository talks about new approach of recommendation system based hybrid m
 
 In this project, me and my teamate reached a new art of state.
 
-<h1>Approach architecture</h1>
+<h1>Approach</h1>
 
 ![](images/approach_sent.png)
 
