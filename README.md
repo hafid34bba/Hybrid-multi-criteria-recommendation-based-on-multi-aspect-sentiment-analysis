@@ -24,7 +24,7 @@ The reason of choosing fully connected layer against LSTM is that tfidf does not
 
 GloVe is an unsupervised learning algorithm for obtaining vector representations for words. Training is performed on aggregated global word-word co-occurrence statistics from a corpus, and the resulting representations showcase interesting linear substructures of the word vector space<br><br>
 
-<h2>1.3  Bert with Bi-LSTM </2>
+<h2>1.3  Bert with Bi-LSTM </h2>
 
 BERT, or Bidirectional Encoder Representations from Transformers, is a new method of pre-training language representations which obtains state-of-the-art results on a wide array of Natural Language Processing (NLP) tasks<br>
 We used BERT as a feature extraction model.<br>
