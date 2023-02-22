@@ -9,3 +9,10 @@ In this project, me and my teamate reached a new art of state.
 ![](images/approach.png)
 
 
+<h1>Sentimens analysis</h1> <br>
+
+Before applying our approach, we need to build a sentiment analysis model.
+In order to have a good recommendation system, we must create a very accurated sentiment analysis model, and that's why we tried and fine tuned different approachs.
+
+
+
