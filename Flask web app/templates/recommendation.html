@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Recommandation Hybride Multicritères</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="./static/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="./static/css2/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href ="/static/css2/radio.css">
+</head>
+
+<body >
+<nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">SA-MCNCF</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="{{url_for('index')}}">Recommandation </a></li>
+
+         <li><a href="{{url_for('predict')}}">Prédiction (ID)</a></li>
+        <li><a href="{{url_for('csv')}}">Prédiction (Fichier CSV)</a></li>
+        <li><a href="{{url_for('sentiment_simple')}}">SA</a></li>
+        <li><a href="{{url_for('sentiment_MA')}}">SA-MA</a></li>
+
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="#">Navbar Link</a></li>
+
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+
+      <h1 class="header center orange-text">Recommandation Hybride Multicritère </h1>
+      <div class="row center">
+        <h6 class="header col s12 light">
+        <br>
+        </h6>
+      </div>
+
+
+
+
+
+
+
+    <legend>Sélectionnez le modèle : </legend>
+     <form action='' method="post" class="col s12">
+
+    <div>
+      <input type="radio" id="NCF" name="algo" value="NCF"
+             checked>
+      <label for="NCF">NCF </label>
+    </div>
+
+    <div>
+      <input type="radio" id="FCBS" name="algo" value="FCBS">
+      <label for="FCBS">FCBS "Filtrage Collaboratif Basé Sentiment" </label>
+    </div>
+        <div>
+      <input type="radio" id="FCBS-MA" name="algo" value="FCBS-MA">
+      <label for="FCBS-MA">FCBS-MA "Filtrage Collaboratif Basé Sentiment Multi-Aspect" </label>
+    </div>
+
+    <div>
+      <input type="radio" id="Hybridation1" name="algo" value="Hybridation1">
+      <label for="Hybridation1">Hybridation (NCF + FCBS)</label>
+    </div>
+      <div>
+      <input type="radio" id="Hybridation2" name="algo" value="Hybridation2">
+      <label for="Hybridation1">Hybridation (NCF + FCBS-MA)</label>
+    </div>
+
+
+              <div class="row" style="margin-top:50px;">
+                <legend>Saisissez un identifiant d'utilisateur :</legend>
+
+      <div class="row">
+        <div class="input-field col s4">
+            <label for="first_name"><b>UserID</b></label>
+            <br>
+          <input placeholder="USERID" name="USERID" id="first_name" type="text" class="validate">
+        </div>
+        <div class="input-field col s4">
+
+
+
+        </div>
+
+
+
+  </div>
+      <div class="input-field col s6 " >
+
+
+
+
+
+
+      <div class="row center">
+
+          <button type="submit" class="btn-large waves-effect waves-light orange" style="height:70px;width:400px ;font-size : 17px; border-radius: 100px; line-height: 20px;">Recommander</button>
+      </div>
+</div></div>
+    </form>
+</div>
+
+      <div  style="margin-top:30px; margin-left:380px;">
+      <legend>
+    {{message}}
+      <br><br>
+        {{item1}}
+    <br>
+
+        {{item2}}
+    <br>
+        {{item3}}
+    <br>
+      </legend>
+
+
+
+      </div>
+
+
+    </div>
+  </div>
+
+
+    <br><br>
+  </div>
+  </div>>
+
+
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src=".js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>
+
