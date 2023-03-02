@@ -36,7 +36,7 @@ We used BERT as a feature extraction model.<br>
 
 
 <h2>1.4 Accuracy </h2> <br>
-The tables bellow represent the accuracy obtained on Trip Advisor and Yelp datasets, using both sentiments analysis and multi-creteria sentiment analysis.<br>
+The tables bellow represent the accuracy obtained on Trip Advisor and Yelp datasets, using both sentiments analysis (table 1) and multi-creteria sentiment analysis (table 2).<br>
 
 ![](images/Accuracy.png)
 <br>
