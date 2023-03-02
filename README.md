@@ -13,6 +13,7 @@ In this project, me and my teamate reached a new art of state.
 
 While our approach uses sentiment analysis scores in calculating similarity between users, we started our project by building sentiment analysis models.<br>
 In order to have a good recommendation system, we must create a very accurated sentiment analysis model, and that's why we tried and fine tuned different approachs.<br>
+As the title of our approach suggests, we developed new sentiment analysis models that predict the user's sentiment on various aspects.
 
 ![](images/approach.png)
 <br>
@@ -34,5 +35,8 @@ We used BERT as a feature extraction model.<br>
 
 
 
+<h2>1.4 Accuracy </h2> <br>
+The table bellow represents the accuracy obtained on Trip Advisor and Yelp datasets, using both sentiments analysis and multi-creteria sentiment analysis.<br>
+![](images/Accuracy.png)
 
 
