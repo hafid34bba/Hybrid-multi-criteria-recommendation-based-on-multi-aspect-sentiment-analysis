@@ -42,5 +42,6 @@ The tables bellow represent the accuracy obtained on Trip Advisor and Yelp datas
 <br>
 
 <h1>Collaborative filtering based on sentiment analysis</h1>
+
 ![](images/Cf_sent.png)
 
