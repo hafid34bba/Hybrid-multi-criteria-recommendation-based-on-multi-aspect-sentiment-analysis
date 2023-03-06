@@ -36,9 +36,12 @@ We used BERT as a feature extraction model.<br>
 
 
 <h2>1.4 Accuracy </h2> <br>
-The tables bellow represent the accuracy obtained on Trip Advisor and Yelp datasets, using both sentiments analysis (table 1) and multi-creteria sentiment analysis (table 2).<br>
+The accuracy obtained on Trip Advisor and Yelp datasets using both sentiment analysis (table 1) and multi-criteria sentiment analysis (table 2) is shown in the tables below.(table 2).<br>
+
 
 ![](images/Accuracy.png)
+
+The accuracy of multi-aspect sentiment analysis is lower than that of a single aspect dimension, which makes sense because it is more difficult for the model to detect sentiments based on different criteria.
 <br>
 
 <h1>Collaborative filtering based on sentiment analysis</h1>
