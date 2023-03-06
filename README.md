@@ -44,7 +44,7 @@ The accuracy obtained on Trip Advisor and Yelp datasets using both sentiment ana
 The accuracy of multi-aspect sentiment analysis is lower than that of a single aspect dimension, which makes sense because it is more difficult for the model to detect sentiments based on different criteria.
 <br>
 
-<h1>Collaborative filtering based on sentiment analysis</h1>
+<h1>2 Collaborative filtering based on sentiment analysis</h1>
 
 ![](images/Cf_sent.png)
 
