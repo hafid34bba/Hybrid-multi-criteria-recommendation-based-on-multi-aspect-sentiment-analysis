@@ -48,3 +48,6 @@ The accuracy of multi-aspect sentiment analysis is lower than that of a single a
 
 ![](images/Cf_sent.png)
 
+Our collaborative filtering approach is based on K-nearest neighbors algorithm and uses sentiment analysis scores to calculate the similarity between users.
+
+We used Hamming distance for caculating the distance between users sentiments on a specific item (hotel) since the sentiment score is either 1 or 0.
