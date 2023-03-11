@@ -51,3 +51,10 @@ The accuracy of multi-aspect sentiment analysis is lower than that of a single a
 Our collaborative filtering approach is based on K-nearest neighbors algorithm and uses sentiment analysis scores to calculate the similarity between users.
 
 We used Hamming distance for caculating the distance between users sentiments on a specific item (hotel) since the sentiment score is either 1 or 0. then the simularity is calculated based on that distance ( similarity = 1 - distance).
+
+
+<h1> Neural Collaborative filtering </h1> 
+
+Neural Collaborative Filtering (NCF) is a machine learning technique used for personalized recommendation systems. It is based on combining both neural networks and collaborative filtering methods to achieve better accuracy and performance.
+<br>
+NCF has been shown to outperform traditional collaborative filtering methods on many benchmark datasets. It is used by many companies to power their recommendation systems, including Netflix, Amazon, and Google.
