@@ -60,3 +60,5 @@ Neural Collaborative Filtering (NCF) is a machine learning technique used for pe
 NCF has been shown to outperform traditional collaborative filtering methods on many benchmark datasets. It is used by many companies to power their recommendation systems, including Netflix, Amazon, and Google.
 <br>
 Our architecture is based on Nassar's multi-criteria NCF algorithm, which aims to predict a user's rating on a particular item based on various criteria.
+
+<h1>4 Hybrid model </h1> 
