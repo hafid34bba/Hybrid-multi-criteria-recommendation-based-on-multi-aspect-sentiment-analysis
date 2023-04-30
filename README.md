@@ -26,7 +26,7 @@ The reason of choosing fully connected layer against LSTM is that tfidf does not
 
 <h2>1.2 Glove with LSTM </h2>
 
-GloVe is an unsupervised learning algorithm for obtaining vector representations for words. Training is performed on aggregated global word-word co-occurrence statistics from a corpus, and the resulting representations showcase interesting linear substructures of the word vector space<br><br>
+GloVe is an unsupervised learning algorithm for obtaining vector representations for words. Training is performed on aggregated global word-word co-occurrence statistics from a corpus, and the resulting representations showcase interesting linear substructures of the word vector  space<br><br>
 
 <h2>1.3  Bert with Bi-LSTM </h2>
 
