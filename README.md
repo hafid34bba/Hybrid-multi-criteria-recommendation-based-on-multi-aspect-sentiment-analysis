@@ -72,3 +72,12 @@ Our architecture is based on Nassar's multi-criteria NCF algorithm, which aims t
 |  Tripadvisor (brut)   |   518834	 |   4333	  |    878561	  |  ENG / FR   |
 | Tripadvisor (cleaned)	|    868	   |   1998	  |     10050	  |   Anglais   |
 
+## Results
+
+### Simple sentiment Analysis
+|           |       Trip advisor	     |           Yelp            |
+|-----------|--------------------------|---------------------------|
+|	          |  Bert	 |  Glove |	TF-IDF |	Bert   | 	Glove |	TF-IDF |
+| Accuracy  |	0.925  |	0.86  |  0.9	 | 0.856	 |  0.794	| 0.825  |
+
+
