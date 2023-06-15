@@ -62,3 +62,5 @@ NCF has been shown to outperform traditional collaborative filtering methods on 
 Our architecture is based on Nassar's multi-criteria NCF algorithm, which aims to predict a user's rating on a particular item based on various criteria.
 
 <h1>4 Hybrid model </h1> 
+
+![](images/hybrid.png)
