@@ -72,9 +72,9 @@ Our architecture is based on Nassar's multi-criteria NCF algorithm, which aims t
 |  Tripadvisor (brut)   |   518834	 |   4333	  |    878561	  |  ENG / FR   |
 | Tripadvisor (cleaned)	|    868	   |   1998	  |     10050	  |   Anglais   |
 
-## Results
+<!--## Results
 
-<!--### Simple sentiment Analysis
+### Simple sentiment Analysis
 
 |	  Algorithm  |  Bert	 |  Glove |	TF-IDF |	
 |--------------|---------|--------|--------|
