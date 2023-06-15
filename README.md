@@ -80,6 +80,7 @@ Our architecture is based on Nassar's multi-criteria NCF algorithm, which aims t
 |--------------|---------|--------|--------|
 |   Accuracy   |	0.925  |	0.86  |  0.9	 |
 
+### Multi aspects sentiment analysis.
 
 |   Algorihtm  |  Bert	 |  Glove |	TF-IDF |
 |--------------|---------|--------|--------|
