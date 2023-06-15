@@ -74,7 +74,7 @@ Our architecture is based on Nassar's multi-criteria NCF algorithm, which aims t
 
 ## Results
 
-### Simple sentiment Analysis
+<!--### Simple sentiment Analysis
 
 |	  Algorithm  |  Bert	 |  Glove |	TF-IDF |	
 |--------------|---------|--------|--------|
@@ -84,6 +84,6 @@ Our architecture is based on Nassar's multi-criteria NCF algorithm, which aims t
 
 |   Algorihtm  |  Bert	 |  Glove |	TF-IDF |
 |--------------|---------|--------|--------|
-|   Accuracy   |  0.894	 |  0.85	|  0.787 |
+|   Accuracy   |  0.894	 |  0.85	|  0.787 | -->
 
 
