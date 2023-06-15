@@ -81,7 +81,8 @@ Our architecture is based on Nassar's multi-criteria NCF algorithm, which aims t
 |   Accuracy   |	0.925  |	0.86  |  0.9	 |
 
 
-Bert	Glove	TF-IDF
-0.894	0.85	0.787
+|   Algorihtm  |  Bert	 |  Glove |	TF-IDF |
+|--------------|---------|--------|--------|
+|   Accuracy   |  0.894	 |  0.85	|  0.787 |
 
 
