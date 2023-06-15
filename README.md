@@ -64,3 +64,11 @@ Our architecture is based on Nassar's multi-criteria NCF algorithm, which aims t
 <h1>4 Hybrid model </h1> 
 
 ![](images/hybrid.png)
+
+## Datasets
+
+|  Dataset	            |  Users	   | Hostels	| Evaluation	|   Language  |
+|-----------------------|------------|----------|-------------|-------------|
+|  Tripadvisor (brut)   |   518834	 |   4333	  |    878561	  |  ENG / FR   |
+| Tripadvisor (cleaned)	|    868	   |   1998	  |     10050	  |   Anglais   |
+
