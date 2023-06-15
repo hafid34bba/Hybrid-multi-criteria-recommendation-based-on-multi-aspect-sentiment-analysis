@@ -75,9 +75,9 @@ Our architecture is based on Nassar's multi-criteria NCF algorithm, which aims t
 ## Results
 
 ### Simple sentiment Analysis
-|           |       Trip advisor	     |           Yelp            |
+|      #    |       Trip advisor	     |           Yelp            |
 |-----------|--------------------------|---------------------------|
-|	          |  Bert	 |  Glove |	TF-IDF |	Bert   | 	Glove |	TF-IDF |
+|	     #    |  Bert	 |  Glove |	TF-IDF |	Bert   | 	Glove |	TF-IDF |
 | Accuracy  |	0.925  |	0.86  |  0.9	 | 0.856	 |  0.794	| 0.825  |
 
 
