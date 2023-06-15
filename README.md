@@ -65,7 +65,7 @@ Our architecture is based on Nassar's multi-criteria NCF algorithm, which aims t
 
 ![](images/hybrid.png)
 
-## Datasets
+## Dataset
 
 |  Dataset	            |  Users	   | Hostels	| Evaluation	|   Language  |
 |-----------------------|------------|----------|-------------|-------------|
